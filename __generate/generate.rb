@@ -32,7 +32,7 @@ generate = {
   payload: true,
   options: true,
   images_sections: true,
-  images_options: false,
+  images_options: true,
   sections: true
 }
 

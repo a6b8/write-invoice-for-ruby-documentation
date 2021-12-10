@@ -24,7 +24,7 @@ gem install write_invoice
 require 'write_invoice'
 
 pyld = WriteInvoice::Example.generate()
-doc = WriteInvoice::Document.generate( payload: pyld, options: {} )
+doc = WriteInvoice::Document.generate( payload: pyld )
 File.open( 'test.pdf', 'w' ) { | f | f.write( doc ) }
 ```
 
