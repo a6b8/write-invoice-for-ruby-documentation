@@ -1,0 +1,111 @@
+---
+sort: 48
+title: D.16 style__address_label__move_down_two
+---
+# style__address_label__move_down_two
+
+Set distance between address label and next section.
+
+
+## Preview
+
+<div >
+    <canvas id='canvas' search=':style__address_label__move_down_two' palette='option_detail'></canvas>
+</div>
+<script src="../assets/js/marker.js"></script>  
+
+ 
+## Default
+
+### Hash
+
+```ruby
+{
+ :style__address_label__move_down_two => 100
+} 
+```
+
+### Key
+
+| **Name** | **Category** | **Section** |
+| :--- | :--- | :--- |
+| ```:style__address_label__move_down_two``` |  [Style](./#style) | [Two](/sections/two) |
+
+### Value
+
+Allow positive integers beginning from 1 as value.
+
+| **Default**| **Validation**| **Type** |
+| :--- | :--- | :--- |
+| ```100``` | ```^[1-9]d*$``` | Integer |
+
+## Example A.
+
+Move down by `30`.
+
+### Output
+
+<img src="../assets/images/options/style__address_label__move_down_two--a.png">
+
+
+
+### Parameters
+
+| | **Value** | **Type** |
+|------:|:------|:------|
+| **Output** | 'my-invoice.pdf' | String |
+| **Payload** | {...} [see Payload](../payload) | hash |
+| **Options** | ```{:style__address_label__move_down_two => 30}``` | hash |
+
+
+### Source Code
+
+* Invoke Function
+
+```ruby
+require 'write_invoice'
+ 
+pyld = WriteInvoice::Example.generate()
+opts = {
+ :style__address_label__move_down_two => 30
+}
+ 
+WriteInvoice::Document.generate( output: 'my-invoice.pdf', payload: pyld, options: opts )
+
+```
+
+## Example B.
+
+Move down `0`.
+
+### Output
+
+<img src="../assets/images/options/style__address_label__move_down_two--b.png">
+
+
+
+### Parameters
+
+| | **Value** | **Type** |
+|------:|:------|:------|
+| **Output** | 'my-invoice.pdf' | String |
+| **Payload** | {...} [see Payload](../payload) | hash |
+| **Options** | ```{:style__address_label__move_down_two => 0}``` | hash |
+
+
+### Source Code
+
+* Invoke Function
+
+```ruby
+require 'write_invoice'
+ 
+pyld = WriteInvoice::Example.generate()
+opts = {
+ :style__address_label__move_down_two => 0
+}
+ 
+WriteInvoice::Document.generate( output: 'my-invoice.pdf', payload: pyld, options: opts )
+
+```
+

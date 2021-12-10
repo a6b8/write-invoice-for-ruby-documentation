@@ -1,0 +1,17 @@
+title: write invoice
+lang: en
+description: Generate Invoices
+
+plugins:
+    - jekyll-default-layout
+    - jekyll-readme-index
+    - jekyll-github-metadata
+    - jekyll-titles-from-headings
+    - jemoji
+    - jekyll-avatar
+    - jekyll-mentions
+    
+readme_index:
+    with_frontmatter: true
+
+destination: ./docs
