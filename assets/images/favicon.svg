@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="180px" height="223px" viewBox="0 0 180 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-    <title>S</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#D55170" offset="0%"></stop>
-            <stop stop-color="#E2B08E" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="298" font-weight="bold" letter-spacing="48.6530612">
-        <g id="Artboard" transform="translate(-64.000000, -38.000000)" fill="url(#linearGradient-1)">
-            <text id="S">
-                <tspan x="57" y="256">S</tspan>
-            </text>
-        </g>
-    </g>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="181.47" height="182" viewBox="0 0 181.47 182">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #16b2db;
+      }
+
+      .cls-2 {
+        fill: #f05224;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M106,124l-10.4,97H56.29L36,39H63.83L79.17,182.51,93,39h27.56l14.3,144.56L149.63,39h25L154.31,221h-38Z" transform="translate(-36.01 -38.99)"/>
+    <path class="cls-2" d="M188.89,39h28.6V221h-28.6Z" transform="translate(-36.01 -38.99)"/>
+  </g>
 </svg>
