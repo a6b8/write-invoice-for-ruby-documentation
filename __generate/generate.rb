@@ -28,7 +28,7 @@ payloads = Blocks.payloads()
 #puts sections_keys
 
 generate = {
-  struct: true,
+  struct: false,
   payload: true,
   options: true,
   images_sections: true,
